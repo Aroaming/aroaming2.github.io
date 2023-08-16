@@ -37,9 +37,13 @@
 
 
 
+
+
+
+
 <html
   class="not-ready lg:text-base"
-  style="--bg: "
+  style="--bg: #fff"
   lang="en"
 >
   <head>
@@ -91,7 +95,7 @@
   
   
   
-  <link rel="preload" as="image" href="https://imgur.com/t0p7PY2" />
+  <link rel="preload" as="image" href="https://www.gravatar.com/avatar/54d4bf718c2256887bfddb20fc9696a7?s=160&amp;d=identicon" />
   
   
 
@@ -183,7 +187,7 @@
 
     
     const metaTheme = document.querySelector('meta[name="theme-color"]');
-    const lightBg = ''.replace(/"/g, '');
+    const lightBg = '#fff'.replace(/"/g, '');
     const setDark = (isDark) => {
       metaTheme.setAttribute('content', isDark ? '#000' : lightBg);
       htmlClass[isDark ? 'add' : 'remove']('dark');
